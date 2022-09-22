@@ -1,0 +1,16 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %}{{ title }}{% endblock %}
+
+
+{% block content %}
+        <div class="features">
+                <h1>Гайнутдинов Ильдар</h1>
+                <div class="c-photo">
+                <div><img src="{% static "main/img/myphoto.jpg"%}" width="320" height = "320"/></div>
+                </div>
+                <h2>Студент группы ИСТбд-22, которому было лень летом делать этот сайт визитку :)</h2><br><br>
+                <button class="btn btn-outline-secondary"; onclick="window.location.href ='http://127.0.0.1:8000/about' "><i class="bi bi-info-square-fill"></i>    Перейти на страницу о себе</button>
+        </div>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %}Про себя{% endblock %}
+
+{% block content %}
+
+        <div class="features">
+                <h1>О себе</h1>
+                <div class="photo">
+                <div><img src="{% static 'main/img/gifka.gif' %}"width="450" height = "500"></div>
+                </div>
+                <h2>Довольно дружелюбный, ленивый</h2>
+                <h3>Увлекаюсь видеоиграми, иногда саморазвиваюсь, смотрю аниме и не знаю что здесь ещё писать</h3>
+                <h4>Мой Discord: Lincore#0632</h4><br><br>
+                <button class="btn btn-outline-secondary"; onclick="window.location.href ='https://github.com/LincoreAsh' "><i class="bi bi-github"></i>  GitHub</button>
+        </div>
+{% endblock %}
